@@ -3,99 +3,448 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayodhya Ramnagari - Tourism & Travel</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <meta
+        name="description"
+        content="Ramnagari Tourism offers trusted tour packages, cab booking, hotel assistance, and local sightseeing services from Ayodhya, Uttar Pradesh."
+    >
+    <meta name="keywords" content="Ayodhya tour packages, Ayodhya cab booking, Ram Mandir tour, Varanasi tour from Ayodhya, Prayagraj tour, Ramnagari Tourism">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Ramnagari Tourism">
+    <link rel="canonical" href="https://thesurajpal11-create.github.io/tour-fortened09/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ramnagari Tourism">
+    <meta property="og:title" content="Ramnagari Tourism | Ayodhya Tours, Cabs & Hotel Assistance">
+    <meta property="og:description" content="Book trusted Ayodhya tour packages, cab service, hotel assistance, and spiritual circuit travel from Ramnagari Tourism.">
+    <meta property="og:url" content="https://thesurajpal11-create.github.io/tour-fortened09/">
+    <meta property="og:image" content="https://thesurajpal11-create.github.io/tour-fortened09/images/ayodhya.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ramnagari Tourism | Ayodhya Tours, Cabs & Hotel Assistance">
+    <meta name="twitter:description" content="Trusted tour packages, cab booking, hotel help, and spiritual travel services from Ayodhya.">
+    <meta name="twitter:image" content="https://thesurajpal11-create.github.io/tour-fortened09/images/ayodhya.jpg">
+    <title>Ramnagari Tourism | Ayodhya Tour Packages, Cab Booking & Hotels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "TravelAgency",
+            "name": "Ramnagari Tourism",
+            "url": "https://thesurajpal11-create.github.io/tour-fortened09/",
+            "image": "https://thesurajpal11-create.github.io/tour-fortened09/images/ayodhya.jpg",
+            "description": "Ayodhya-based travel agency offering tour packages, cab booking, hotel assistance, and local sightseeing.",
+            "telephone": "+917607745628",
+            "email": "ayodhyaramnagritourism@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ayodhya",
+                "addressRegion": "Uttar Pradesh",
+                "addressCountry": "IN"
+            },
+            "areaServed": ["Ayodhya", "Varanasi", "Prayagraj", "Chitrakoot", "Mathura", "Vindhyachal"],
+            "sameAs": [
+                "https://www.instagram.com/ayodhyaramnagari",
+                "https://www.youtube.com/@AR_Tourism"
+            ]
+        }
+    </script>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <h1>🏛️ Ayodhya Ramnagari Tourism</h1>
+    <header class="site-header">
+        <nav class="navbar" id="navbar">
+            <div class="container nav-inner">
+                <a href="index.html" class="brand" aria-label="Ramnagari Tourism home">
+                    <span class="brand-mark">
+                        <img src="images/logo.jpeg" alt="Ramnagari Tourism logo" class="brand-logo" onerror="this.style.display='none'">
+                        <span class="brand-fallback">RT</span>
+                    </span>
+                    <span class="brand-text">
+                        <strong>Ramnagari Tourism</strong>
+                        <small>Trusted Tour & Travel Services</small>
+                    </span>
+                </a>
+
+                <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html">Home</a>
+                    <a href="pages/destinations.html">Destination</a>
+                    <a href="pages/tour-packages.html">Tour Packages</a>
+                    <a href="pages/hotels.html">Hotels</a>
+                    <a href="pages/booking.html">Book & Pay</a>
+                    <a href="pages/cab.html">Cab Tariff</a>
+                    <a href="pages/contact.html">Contact</a>
+                    <a href="tel:+917607745628" class="call-button">Call Now</a>
+                </div>
             </div>
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="top-slider" id="home">
+            <div class="top-slider-track" id="topSliderTrack">
+                <article class="top-slide is-active">
+                    <img src="images/ayodhya.jpg" alt="Ayodhya tourism banner">
+                    <div class="top-slide-overlay"></div>
+                </article>
+                <article class="top-slide">
+                    <img src="images/varanasi.jpg" alt="Varanasi tourism banner">
+                    <div class="top-slide-overlay"></div>
+                </article>
+                <article class="top-slide">
+                    <img src="images/chitrakoot.jpg" alt="Chitrakoot tourism banner">
+                    <div class="top-slide-overlay"></div>
+                </article>
+                <article class="top-slide">
+                    <img src="images/mathura.jpg" alt="Mathura tourism banner">
+                    <div class="top-slide-overlay"></div>
+                </article>
+            </div>
+
+            <button class="slider-arrow slider-arrow-left" id="sliderPrev" type="button" aria-label="Previous slide">
+                <span>&#10094;</span>
             </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/tour-packages.html">Tour Packages</a></li>
-                <li><a href="pages/hotels.html">Hotels</a></li>
-                <li><a href="pages/cab.html">Cab</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+            <button class="slider-arrow slider-arrow-right" id="sliderNext" type="button" aria-label="Next slide">
+                <span>&#10095;</span>
+            </button>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Welcome to Ayodhya Ramnagari</h2>
-            <p class="slogan">The Spiritual Journey</p>
-            <p>Explore the Sacred Pilgrimage Destinations of India</p>
-            <a href="pages/tour-packages.html" class="btn-primary">Explore Now</a>
-        </div>
-    </section>
+            <div class="slider-dots" id="sliderDots">
+                <button class="slider-dot is-active" type="button" aria-label="Slide 1"></button>
+                <button class="slider-dot" type="button" aria-label="Slide 2"></button>
+                <button class="slider-dot" type="button" aria-label="Slide 3"></button>
+                <button class="slider-dot" type="button" aria-label="Slide 4"></button>
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <h2>About Ayodhya Ramnagari Tourism</h2>
-            <p>
-                Welcome to Ayodhya Ramnagari Tourism, your gateway to India's most sacred pilgrimage destinations. 
-                We specialize in spiritual journeys that combine devotion, culture, and comfort. 
-                From the holy city of Ayodhya to the serene ghats of Varanasi, 
-                we offer unforgettable tourism experiences with comfortable accommodations, expert guides, and seamless booking services.
-            </p>
-            <div class="about-features">
-                <div class="feature">
-                    <h3>🎯 Expert Guides</h3>
-                    <p>Knowledgeable guides for authentic spiritual experiences</p>
-                </div>
-                <div class="feature">
-                    <h3>🛏️ Comfort Stays</h3>
-                    <p>Quality hotels and accommodations near pilgrimage sites</p>
-                </div>
-                <div class="feature">
-                    <h3>📱 Easy Booking</h3>
-                    <p>Simple and secure online booking system for all your needs</p>
+        <section class="home-service-strip" aria-label="Travel services">
+            <div class="container">
+                <div class="travel-service-grid">
+                    <article class="travel-service-card">
+                        <div class="travel-service-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 16.5L21 9M3 16.5L9.5 14M3 16.5V19.5L9.5 17V14M21 9L14.5 11.5M21 9L19.5 4.5L14.5 6.5V11.5M14.5 11.5L9.5 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h2>Tours</h2>
+                        <p>Handpicked spiritual circuits and local sightseeing with effortless planning.</p>
+                        <a href="pages/tour-packages.html" class="travel-service-cta">Explore</a>
+                    </article>
+
+                    <article class="travel-service-card">
+                        <div class="travel-service-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M5 16.5H19M7 16.5L8 11.5C8.19 10.58 8.99 9.92 9.93 9.92H14.07C15.01 9.92 15.81 10.58 16 11.5L17 16.5M6.5 19.5C7.33 19.5 8 18.83 8 18C8 17.17 7.33 16.5 6.5 16.5C5.67 16.5 5 17.17 5 18C5 18.83 5.67 19.5 6.5 19.5ZM17.5 19.5C18.33 19.5 19 18.83 19 18C19 17.17 18.33 16.5 17.5 16.5C16.67 16.5 16 17.17 16 18C16 18.83 16.67 19.5 17.5 19.5ZM6.5 13H17.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 9.92L10.5 6.75C10.76 6.2 11.31 5.85 11.92 5.85H12.08C12.69 5.85 13.24 6.2 13.5 6.75L15 9.92" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h2>Cabs</h2>
+                        <p>Reliable city transfers and outstation rides with smooth on-time service.</p>
+                        <a href="pages/cab.html" class="travel-service-cta">Book Now</a>
+                    </article>
+
+                    <article class="travel-service-card">
+                        <div class="travel-service-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M4 20V7.5C4 6.67 4.67 6 5.5 6H18.5C19.33 6 20 6.67 20 7.5V20M2.5 20H21.5M8 10.5H10.5M8 14H10.5M14 10.5H16M14 14H16M9 20V17H15V20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 6V4.5H16V6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h2>Hotels</h2>
+                        <p>Stay options that balance comfort, location, and a calm premium feel.</p>
+                        <a href="pages/hotels.html" class="travel-service-cta">Explore</a>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Contact Us</h4>
-                    <p>📞 Phone: 7607745628</p>
-                    <p>💬 WhatsApp: 7607745628</p>
-                    <p>📧 Email: <a href="mailto:ayodhyaramnagritourism@gmail.com">ayodhyaramnagritourism@gmail.com</a></p>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <p>
-                        <a href="https://www.instagram.com" target="_blank">📸 Instagram</a> | 
-                        <a href="https://www.youtube.com/@AR_Tourism" target="_blank">▶️ YouTube</a>
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="pages/tour-packages.html">Tour Packages</a></li>
-                        <li><a href="pages/hotels.html">Hotels</a></li>
-                        <li><a href="pages/cab.html">Cab</a></li>
-                    </ul>
+        <section class="welcome-section">
+            <div class="container welcome-content">
+                <span class="script-heading">Welcome To</span>
+                <h1>Ramnagari Tourism</h1>
+                <p>
+                    Ramnagari Tourism offers trusted and affordable travel services in Ayodhya, Uttar Pradesh. We provide custom tour packages, destination tours, outstation cab service, and hotel assistance for families, pilgrims, and visitors.
+                </p>
+                <div class="service-line">Tours - Cabs - Hotels</div>
+                <div class="welcome-actions">
+                    <a href="tel:+917607745628" class="btn btn-primary">Call</a>
+                    <a href="pages/booking.html" class="btn btn-secondary">Book & Pay</a>
                 </div>
             </div>
-            <hr>
-            <p class="footer-bottom">&copy; 2024 Ayodhya Ramnagari Tourism. All rights reserved.</p>
+        </section>
+
+        <section class="featured-tours section" id="tours">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-script">Featured Tours</span>
+                    <h2>Most Popular Tour Packages</h2>
+                </div>
+                <div class="tour-grid">
+                    <article class="tour-card">
+                        <img src="images/ayodhya.jpg" alt="Ayodhya Local Tour">
+                        <div class="tour-card-body">
+                            <h3>Ayodhya Local Tour</h3>
+                            <p class="tour-meta">1 Day | Local Sightseeing</p>
+                            <p>Visit key temples, ghats, and spiritual landmarks with comfortable local transport.</p>
+                            <a href="ayodhya-tour-package.html" class="text-button">View Details</a>
+                        </div>
+                    </article>
+                    <article class="tour-card">
+                        <img src="images/kashi.jpg" alt="Ayodhya and Prayagraj tour">
+                        <div class="tour-card-body">
+                            <h3>Ayodhya + Prayagraj</h3>
+                            <p class="tour-meta">2 Days | Religious Tour</p>
+                            <p>Ideal for pilgrims looking for a balanced route with spiritual visits and road comfort.</p>
+                            <a href="prayagraj-tour-package.html" class="text-button">View Details</a>
+                        </div>
+                    </article>
+                    <article class="tour-card">
+                        <img src="images/varanasi.jpg" alt="Ayodhya and Varanasi tour">
+                        <div class="tour-card-body">
+                            <h3>Ayodhya + Varanasi</h3>
+                            <p class="tour-meta">3 Days | Spiritual Circuit</p>
+                            <p>Enjoy darshan planning, smooth transfers, and memorable temple-city travel support.</p>
+                            <a href="varanasi-tour-package.html" class="text-button">View Details</a>
+                        </div>
+                    </article>
+                    <article class="tour-card">
+                        <img src="images/chitrakoot.jpg" alt="Chitrakoot Spiritual Tour">
+                        <div class="tour-card-body">
+                            <h3>Chitrakoot Spiritual Tour</h3>
+                            <p class="tour-meta">2 Days | Devotional Travel</p>
+                            <p>Peaceful road trip with sacred stops, family comfort, and reliable local coordination.</p>
+                            <a href="chitrakoot-tour-package.html" class="text-button">View Details</a>
+                        </div>
+                    </article>
+                    <article class="tour-card">
+                        <img src="images/mathura.jpg" alt="Mathura Vrindavan Yatra">
+                        <div class="tour-card-body">
+                            <h3>Mathura Vrindavan Yatra</h3>
+                            <p class="tour-meta">3 Days | Family Tour</p>
+                            <p>Suitable for devotional family journeys with hotel support and comfortable transfers.</p>
+                            <a href="mathura-vrindavan-tour-package.html" class="text-button">View Details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="destinations section" id="destinations">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-script">Popular Destinations</span>
+                    <h2>Explore Top Spiritual & Cultural Places</h2>
+                </div>
+                <div class="destination-grid">
+                    <article class="destination-card">
+                        <img src="images/ayodhya.jpg" alt="Ayodhya">
+                        <span>Ayodhya</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/varanasi.jpg" alt="Varanasi">
+                        <span>Varanasi</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/kashi.jpg" alt="Prayagraj route">
+                        <span>Prayagraj</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/chitrakoot.jpg" alt="Chitrakoot">
+                        <span>Chitrakoot</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/mathura.jpg" alt="Mathura">
+                        <span>Mathura</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="enquiry section" id="enquiry">
+            <div class="container enquiry-layout">
+                <form
+                    class="enquiry-form"
+                    id="enquiryForm"
+                    method="POST"
+                    action="https://formsubmit.co/ayodhyaramnagritourism@gmail.com"
+                    data-formsubmit="true"
+                    novalidate
+                >
+                    <h2>Quick Enquiry</h2>
+                    <input type="hidden" name="_subject" value="New Tour &amp; Travel Enquiry">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://ramnagritourism.com/thank-you.html">
+                    <input type="hidden" name="_url" value="https://ramnagritourism.com/index.html">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="full_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobile">Mobile</label>
+                            <input type="tel" id="mobile" name="mobile" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pickupDate">Pickup Date</label>
+                            <input type="date" id="pickupDate" name="pickup_date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pickupPlace">Pickup Place</label>
+                            <input type="text" id="pickupPlace" name="pickup_place" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="destinationPlace">Destination</label>
+                            <input type="text" id="destinationPlace" name="destination" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="vehicleType">Vehicle Type</label>
+                            <select id="vehicleType" name="vehicle_type" required>
+                                <option value="">Select vehicle</option>
+                                <option>Sedan</option>
+                                <option>SUV</option>
+                                <option>Innova</option>
+                                <option>Tempo Traveller</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="hotelType">Hotel Type</label>
+                            <select id="hotelType" name="hotel_type">
+                                <option value="">Select hotel type</option>
+                                <option>Budget</option>
+                                <option>Standard</option>
+                                <option>Deluxe</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-group-full">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <div class="form-group form-group-full">
+                            <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                            <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="enquiry-contact" id="contact">
+                    <h2>Need Quick Assistance?</h2>
+                    <p>Our team helps with cabs, hotels, local sightseeing, and outstation travel from Ayodhya.</p>
+                    <div class="contact-option">
+                        <h3>Call Us</h3>
+                        <a href="tel:+917607745628">+91 7607745628</a>
+                    </div>
+                    <div class="contact-option">
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/917607745628" target="_blank" rel="noopener">Start Chat</a>
+                    </div>
+                    <div class="contact-option" id="tariff">
+                        <h3>Services</h3>
+                        <p>Cabs, Tours, Hotels, Local Sightseeing, Outstation Travel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us section">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-script">Why Choose Us</span>
+                    <h2>Reliable Travel Support For Every Trip</h2>
+                </div>
+                <div class="why-grid">
+                    <article class="why-card">
+                        <div class="why-icon">Rs</div>
+                        <h3>Transparent Billing</h3>
+                        <p>Clear fare communication and simple package discussion before booking confirmation.</p>
+                    </article>
+                    <article class="why-card">
+                        <div class="why-icon">Car</div>
+                        <h3>Clean Cars</h3>
+                        <p>Vehicles are maintained for family comfort, local trips, and long-distance travel.</p>
+                    </article>
+                    <article class="why-card">
+                        <div class="why-icon">Drv</div>
+                        <h3>Professional Drivers</h3>
+                        <p>Experienced drivers focused on punctual pickups, smooth rides, and respectful service.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-section section" id="reviews">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-script">Guest Reviews</span>
+                    <h2>Share Your Travel Experience</h2>
+                </div>
+
+                <div class="reviews-layout">
+                    <form
+                        class="review-form"
+                        id="reviewForm"
+                        method="POST"
+                        action="https://formsubmit.co/ayodhyaramnagritourism@gmail.com"
+                        novalidate
+                    >
+                        <h3>Write a Review</h3>
+                        <input type="hidden" name="_subject" value="New Website Review">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://ramnagritourism.com/index.html#reviews">
+                        <input type="hidden" name="_url" value="https://ramnagritourism.com/index.html#reviews">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="reviewName">Name</label>
+                                <input type="text" id="reviewName" name="review_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewRating">Rating</label>
+                                <select id="reviewRating" name="review_rating" required>
+                                    <option value="">Select rating</option>
+                                    <option value="5">5 Stars</option>
+                                    <option value="4">4 Stars</option>
+                                </select>
+                            </div>
+                            <div class="form-group form-group-full">
+                                <label for="reviewMessage">Review</label>
+                                <textarea id="reviewMessage" name="review_message" rows="4" required></textarea>
+                            </div>
+                            <div class="form-group form-group-full">
+                                <button type="submit" class="btn btn-primary">Save Review</button>
+                                <p class="form-feedback" id="reviewFeedback" aria-live="polite"></p>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="review-list-wrap">
+                        <div class="review-summary" id="reviewSummary">No reviews yet.</div>
+                        <div class="review-list" id="reviewList" aria-live="polite"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="currentYear"></span> Ramnagari Tourism. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="/js/main.js"></script>
+    <div class="floating-contact">
+        <a href="tel:+917607745628" class="floating-btn call-float" aria-label="Call Ramnagari Tourism">Call</a>
+        <a href="https://wa.me/917607745628" class="floating-btn whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp Ramnagari Tourism">WhatsApp</a>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
